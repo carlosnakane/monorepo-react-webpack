@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "webpack-experiment",
+  "version": "1.0.0",
+  "description": "A webpack code spliting and lazy loading experiment",
+  "author": "carlos.nakane",
+  "license": "ISC",
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "http-server": "http-server-spa ./packages/root-app/dist index.html 8080"
+  }
+}
