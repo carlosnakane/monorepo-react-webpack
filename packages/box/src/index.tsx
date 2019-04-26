@@ -36,13 +36,3 @@ const Box = styled(RawBox)`
 `;
 
 export default Box;
-
-// const UsingBox = () => (<ThemeProvider theme={light}><Box label={'AAAA'} labelBackgroundColor={'#000000'} labelTextColor={'#FFFFFF'}><div><h2>Olaaaa</h2></div></Box></ThemeProvider>);
-
-
-
-// import { render } from 'react-dom';
-
-// const rootElement = document.getElementById('root');
-
-// render(<UsingBox />, rootElement);

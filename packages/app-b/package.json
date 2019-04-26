@@ -9,8 +9,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@we/dev-tools": "1.0.0",
-    "@types/react": "^16.8.13"
+    "@types/react": "^16.8.13",
+    "@we/dev-tools": "1.0.0"
   },
   "dependencies": {
     "@we/box": "^1.0.0",

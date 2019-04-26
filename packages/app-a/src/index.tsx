@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 
 const AsyncUIComponentA = lazy(() => import('@we/ui-component-a'));
-const AsyncUIComponentB = lazy(() => import('@we/ui-component-b'));
 
 const Loading = () => <span>Loading...</span>;
 
@@ -12,10 +11,7 @@ const AppA = () => {
       <Suspense fallback={Loading}>
         <div>
           <div>
-            <AsyncUIComponentA color={'Warm'} potency={60} on={false} />
-          </div>
-          <div>
-            <AsyncUIComponentB color={'Black'} />
+            <AsyncUIComponentA />
           </div>
         </div>
       </Suspense>

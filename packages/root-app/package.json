@@ -17,7 +17,7 @@
     "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
-    "@we/dev-theme": "1.0.0",
+    "@we/theme": "1.0.0",
     "@we/dev-tools": "1.0.0",
     "@types/react": "^16.8.13",
     "@types/react-dom": "^16.8.4",
