@@ -13,10 +13,10 @@ cd ../ui-component-b
 yarn build:dev
 
 cd ../app-a
-yarn build:dev
+yarn build
 
 cd ../app-b
-yarn build:dev
+yarn build
 
 cd ../root-app
 yarn build:prod
