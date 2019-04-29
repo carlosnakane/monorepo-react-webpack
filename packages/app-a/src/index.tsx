@@ -1,4 +1,6 @@
 import React, { lazy, Suspense } from 'react';
+import sun from './img.jpg';
+import sun2 from './img-2.jpg';
 
 const AsyncUIComponentA = lazy(() => import('@we/ui-component-a'));
 
@@ -12,6 +14,8 @@ const AppA = () => {
         <div>
           <div>
             <AsyncUIComponentA />
+            <img src={sun} />
+            <img src={sun2} />
           </div>
         </div>
       </Suspense>

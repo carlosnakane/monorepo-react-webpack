@@ -1,6 +1,7 @@
 const path = require('path')
 const WebpackBar = require('webpackbar');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
 
@@ -27,13 +28,31 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: 'awesome-typescript-loader'
-      }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'assets/images',
+            },
+          },
+        ],
+      },
     ]
   },
 
   plugins: [
-    new WebpackBar(),
-    new CleanWebpackPlugin()
+    // new WebpackBar(),
+    new CleanWebpackPlugin(),
+    new CopyPlugin([
+      {
+        context: path.resolve(__dirname, '../../../node_modules/@we'),
+        from: '*/dist/assets/**',
+        to: 'assets/[folder]/[name].[ext]'
+      },
+    ])
   ]
 
 };

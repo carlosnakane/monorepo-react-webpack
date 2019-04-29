@@ -6,5 +6,5 @@
   ],
   "compilerOptions": {
     "declarationDir": "dist/@types"
-  }
+  },
 }
