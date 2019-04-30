@@ -44,7 +44,7 @@ module.exports = {
   },
 
   plugins: [
-    // new WebpackBar(),
+    new WebpackBar(),
     new CleanWebpackPlugin(),
     new CopyPlugin([
       {
