@@ -2,3 +2,5 @@
 
 cd ../root-app
 yarn build:prod
+
+read

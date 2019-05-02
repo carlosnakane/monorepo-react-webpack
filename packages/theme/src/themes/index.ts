@@ -3,6 +3,7 @@ import { light } from './light'
 type Colors = {
   black: string,
   white: string
+  darkGray: string,
   primary: string,
   secondary: string,
   tertiary: string,

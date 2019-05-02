@@ -1,10 +1,11 @@
 import { ITheme } from ".";
 
 const colors = {
-  black: '#001C28',
-  white: '#DEE8FF',
-  primary: '#4262B3',
-  secondary: '#91B0FF',
+  black: '#1b212c',
+  white: '#FFFFFF',
+  darkGray: '#303b4e',
+  primary: '#2196f3',
+  secondary: '#82c7a5',
   tertiary: '#789EFF',
   accent: '#B38D30',
 }
@@ -14,7 +15,7 @@ const titleCommons = {
 }
 
 const light: ITheme = {
-  fontFace: 'Helvetica, sans serif',
+  fontFace: 'Helvetica',
   borderRadius: '5px',
   colors: colors,
   text: {
