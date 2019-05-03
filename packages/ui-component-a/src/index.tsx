@@ -12,7 +12,7 @@ const UIComponentA = () => {
 
 
 const BoxedUIComponentA = () => (
-  <Box label={'we-ui-componente-a'} labelBackgroundColor={'#2196f3'} labelTextColor={'#000'}>
+  <Box label={'Box'} labelBackgroundColor={'#2196f3'} labelTextColor={'#000'}>
     <UIComponentA />
   </Box>
  );
