@@ -1,13 +1,16 @@
 import { render } from "react-dom";
 import * as React from "react";
-import { ThemeProvider, light } from '@we/theme';
-import AppB from "./";
+import { GlobalStyles, ThemeProvider, light } from '@we/theme';
+import AppA from "./";
 
 const rootElement = document.getElementById("root");
 
 const WithInfra = () => (
   <ThemeProvider theme={light}>
-      <AppB />
+    <div>
+      <GlobalStyles />
+      <AppA />
+    </div>
   </ThemeProvider>
 );
 
