@@ -7,12 +7,10 @@ const rootElement = document.getElementById("root");
 
 const WithInfra = () => (
   <ThemeProvider theme={light}>
-  <ThemeProvider theme={light}>
     <div>
       <GlobalStyles />
       <AppB />
     </div>
-  </ThemeProvider>
   </ThemeProvider>
 );
 
