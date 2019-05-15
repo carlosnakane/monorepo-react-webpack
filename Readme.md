@@ -55,12 +55,12 @@ $ yarn start
 
 ## Keep in mind
   * `Yarn Workspaces` is the key that makes the development experience better:
-    * You can keep the root `package.json` free of dependencies. Eventually, you can put something global tools there like Lerna but those shared dev dependencies like webpack go inside the `dev-tools` package.
+    * You can keep the root `package.json` free of dependencies. Eventually, you can put some global tools there like Lerna but those shared dev dependencies like webpack go inside the `dev-tools` package.
     * Yarn workspaces will take care about making the `dev-tools` binaries accessible inside the packages that depend on it;
     * Almost all dependencies will be hosted inside the root _node_modules_ saving a lot of disk space and internet connection.
   * `Webpack` enables you to do whatever you want with your bundling as we've done here:
     * Generating 1 chunk file per package.
-    * The chunks filename remains the same unless its source changes. So we're taking advantage of the browser's cache. Courtesy of webpack's `contenthash` feature;
+    * The chunks filename remains the same unless its source code changes. So we're taking advantage of the browser's cache. Courtesy of webpack's `contenthash` feature;
     * You can share common dependencies like `react` in a vendor bundle keeping your components chunks small and avoiding duplicated code;
     * Webpack's async import() will do the lazy loading job.
     * The vendor package is not splitted because it's just a demo. A good way of split it is making dozens of small chunks in case your http-server is powered by HTTP/2.
