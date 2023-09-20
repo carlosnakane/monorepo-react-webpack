@@ -32,7 +32,7 @@ $ yarn install
 ## Building
 
 ```
-$ yarn build
+$ sh scripts/build.sh
 ```
 > If all goes well your browser will open and show you a report of how webpack split the code like this:
 > 
