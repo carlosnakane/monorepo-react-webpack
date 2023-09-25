@@ -1,5 +1,5 @@
 {
-  "name": "@we/app-a",
+  "name": "@fta/app-a",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/@types",
@@ -11,7 +11,7 @@
   "devDependencies": {
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.0",
-    "@we/dev-tools": "1.0.0"
+    "@fta/dev-tools": "1.0.0"
   },
   "dependencies": {
     "react": "18.2.0",

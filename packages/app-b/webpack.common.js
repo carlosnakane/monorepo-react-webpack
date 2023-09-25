@@ -1,4 +1,4 @@
-const externals = require('@we/dev-tools/config/externals');
+const externals = require('@fta/dev-tools/config/externals');
 
 module.exports = {
   output: {

@@ -51,7 +51,7 @@ module.exports = {
         {
           from: "**/*",
           to: "[path][name].[contenthash][ext]",
-          context: path.resolve(__dirname, '../../../node_modules/@we')
+          context: path.resolve(__dirname, '../../../node_modules/@fta')
         },
       ],
     }),

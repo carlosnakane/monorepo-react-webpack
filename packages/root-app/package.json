@@ -1,5 +1,5 @@
 {
-  "name": "@we/root-app",
+  "name": "@fta/root-app",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/@types",
@@ -10,14 +10,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@we/app-a": "^1.0.0",
-    "@we/app-b": "^1.0.0",
+    "@fta/app-a": "^1.0.0",
+    "@fta/app-b": "^1.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.0",
-    "@we/dev-tools": "1.0.0"
+    "@fta/dev-tools": "1.0.0"
   }
 }

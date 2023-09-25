@@ -3,10 +3,10 @@
 module.exports = {
   react: 'react',
   'react-dom': 'react-dom',
-  '@we/app-a': '@we/app-a',
-  '@we/app-b': '@we/app-b',
-  '@we/box': '@we/box',
-  '@we/ui-component-a': '@we/ui-component-a',
-  '@we/ui-component-b': '@we/ui-component-b',
-  '@we/theme': '@we/theme'
+  '@fta/app-a': '@fta/app-a',
+  '@fta/app-b': '@fta/app-b',
+  '@fta/box': '@fta/box',
+  '@fta/ui-component-a': '@fta/ui-component-a',
+  '@fta/ui-component-b': '@fta/ui-component-b',
+  '@fta/theme': '@fta/theme'
 };

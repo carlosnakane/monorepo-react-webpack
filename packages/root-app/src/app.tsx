@@ -1,6 +1,6 @@
 import React from 'react';
-import AppA from "@we/app-a";
-import AppB from "@we/app-b";
+import AppA from "@fta/app-a";
+import AppB from "@fta/app-b";
 const App = () => {
 
   return (

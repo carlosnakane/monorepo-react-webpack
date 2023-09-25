@@ -1,6 +1,6 @@
 const path = require('path');
 const { merge } = require('webpack-merge');
-const devConfig = require('@we/dev-tools/config/webpack.dev');
+const devConfig = require('@fta/dev-tools/config/webpack.dev');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const localDevConfig = require('./webpack.dev');
 
