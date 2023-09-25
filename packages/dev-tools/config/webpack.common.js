@@ -46,13 +46,16 @@ module.exports = {
   plugins: [
     new WebpackBar(),
     new CleanWebpackPlugin(),
-    new CopyPlugin([
-      {
-        context: path.resolve(__dirname, '../../../node_modules/@we'),
-        from: '*/dist/assets/**',
-        to: 'assets/[folder]/[name].[ext]'
-      },
-    ])
+    new CopyPlugin({
+      patterns: [
+        {
+          from: "**/*",
+          to: "[path][name].[contenthash][ext]",
+          context: path.resolve(__dirname, '../../../node_modules/@we')
+        },
+      ],
+    }),
+
   ]
 
 };

@@ -1,4 +1,4 @@
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
 const prod = {
@@ -6,4 +6,4 @@ const prod = {
   devtool: 'source-map',
 };
 
-module.exports = webpackMerge(common, prod);
+module.exports = merge(common, prod);

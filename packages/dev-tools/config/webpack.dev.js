@@ -1,4 +1,4 @@
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
 const dev = {
@@ -6,4 +6,4 @@ const dev = {
   devtool: 'cheap-source-map',
 };
 
-module.exports = webpackMerge(common, dev);
+module.exports = merge(common, dev);

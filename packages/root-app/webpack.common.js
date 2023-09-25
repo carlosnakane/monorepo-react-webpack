@@ -24,7 +24,8 @@ const config = {
     splitChunks: {
       cacheGroups: {
         default: false,
-        vendors: false,
+        defaultVendors: false,
+        chunks: 'all',
         vendor: {
           name: 'vendor',
           chunks: 'all',

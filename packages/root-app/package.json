@@ -13,13 +13,11 @@
     "@we/app-a": "^1.0.0",
     "@we/app-b": "^1.0.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@we/dev-tools": "1.0.0",
     "@types/react": "^16.8.13",
-    "@types/react-dom": "^16.8.4",
-    "@types/react-router-dom": "^4.3.2"
+    "@types/react-dom": "^16.8.4"
   }
 }
