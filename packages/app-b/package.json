@@ -15,10 +15,6 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@we/box": "^1.0.0",
-    "@we/theme": "^1.0.0",
-    "@we/ui-component-a": "^1.0.0",
-    "@we/ui-component-b": "^1.0.0",
     "react": "^16.8.6"
   }
 }
