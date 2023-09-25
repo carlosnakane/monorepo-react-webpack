@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^16.8.13",
-    "@types/react-dom": "^16.8.4",
-    "@we/dev-tools": "1.0.0",
-    "react-dom": "^16.8.6"
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0",
+    "@we/dev-tools": "1.0.0"
   },
   "dependencies": {
-    "react": "^16.8.6"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
