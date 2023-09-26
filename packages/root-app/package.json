@@ -2,7 +2,6 @@
   "name": "@fta/root-app",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "types": "dist/@types",
   "scripts": {
     "build": "./build.sh",
     "build:prod": "webpack --config webpack.prod.js",
@@ -16,8 +15,6 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
     "@fta/dev-tools": "1.0.0"
   }
 }

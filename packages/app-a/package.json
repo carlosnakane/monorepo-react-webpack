@@ -2,16 +2,22 @@
   "name": "@fta/app-a",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "types": "dist/@types",
   "scripts": {
     "build": "webpack --config webpack.dev.js",
     "start": "webpack-dev-server --config webpack.start.js"
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
-    "@fta/dev-tools": "1.0.0"
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@fta/dev-tools": "1.0.0",
+
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   },
   "dependencies": {
     "react": "18.2.0",

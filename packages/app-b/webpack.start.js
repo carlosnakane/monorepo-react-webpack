@@ -8,7 +8,7 @@ delete localDevConfig.externals;
 
 module.exports = merge(devConfig, localDevConfig, {
   entry: {
-    index: './src/index-dev.tsx'
+    index: './src/index-dev.jsx'
   },
   plugins: [
     new HtmlWebpackPlugin({
