@@ -5,22 +5,19 @@
 Feel free to ask and make PR's 👍
 
 ## Tech Stack
-* React
-* Webpack 4
+* React 18.2.0
+* Webpack 5.78.0
 * Yarn (and yarn workspaces)
 * Styled Components
-* Typescript 3.4
 
 ## Requirements
-* Node 8+
-* Yarn 1.1+
+* Node v16.20.1
+* Yarn v1.22.19
 * Cygwin in case you are running this project on a windows machine
 
 ## Packages
 * `app-a`, and `app-b`: These two packages are like business modules. You can dev and run them standalone but in the production they are instantiated by the `root-app`;
-* `box`, `ui-component-a` and `ui-component-b`: UI Components that can be shared across the entire app. Like buttons, fields and even a more complex business component like a login modal;
 * `root-app`: The main app. This app provides infrastructure to all modules via React Context API like the <Theme/> . Also, it handles the routing at its first level;
-* `theme`: It contains the theme and encapsulate the Styled Componentes package;
 * `dev-tools`: A shared module that provides tooling and general config.
 
 
@@ -65,8 +62,3 @@ $ yarn start
     * Webpack's async import() will do the lazy loading job.
     * The vendor package is not splitted because it's just a demo. A good way of split it is making dozens of small chunks in case your http-server is powered by HTTP/2.
     
-
-## Todo
-  - [ ] Generate the externals array automatically. See packages/dev-tools/config/externals
-  - [ ] Make the webpack config inside each module optional
-  - [ ] Turn the current theme accessible across the application
